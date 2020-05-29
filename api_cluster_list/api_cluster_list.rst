@@ -12,7 +12,7 @@ API: クラスターの一覧
 
 .. note::
 
-  想定演習時間: **5 MINUTES**
+  想定演習時間: ** 5分　**
 
 
 
@@ -38,11 +38,11 @@ Exercise: クラスター一覧の取得
 
         .. figure:: images/basicauth.png
 
-#. メディアタイプを「application/json」にします
+#. メディアタイプを「JSON」にします
 
         - Bodyタブをクリック
         - ラジオボタン(選択ボタン)でrawを選択します
-        - Textのドロップダウンをクリックし、JSON(application/json)を選択します
+        - Textのドロップダウンをクリックし、JSONを選択します
 
         .. figure:: images/jsonmediatype.png
 
@@ -59,7 +59,7 @@ Exercise: クラスター一覧の取得
 
 #. Sendボタンをクリックし、v3 APIのリクエストをサーバーに投げます
 
-    - 期待されるレスポンスではアレイ(リスト)けいs気でクラスターの一覧を表示します
+    - 期待されるレスポンスでは一連のクラスターリソースを表示します
     - metadataの下に定義されているクラスターUUIDをメモしておいてください
 
   .. figure:: images/clusteruuid.png
